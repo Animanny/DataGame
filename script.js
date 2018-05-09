@@ -19,12 +19,13 @@ document.getElementById("Al").onclick = function fun() {
         var roll = getRandomInt(6);
         var text = "";
         if (roll < 2) {
-            text = "2";
+            text = "1";
         } else {
             text = "7";
         }
         console.log(text);
         document.getElementById("outcome").innerHTML = text;
+        document.getElementById("Al").style.border = "solid 5px #bbbbbb";
         //validation code to see State field is mandatory.
         return false;
     } else {
@@ -39,12 +40,13 @@ document.getElementById("Ar").onclick = function fun() {
         var roll = getRandomInt(6);
         var text = "";
         if (roll < 2) {
-            text = "2";
+            text = "1";
         } else {
             text = "7";
         }
         console.log(text);
         document.getElementById("outcome").innerHTML = text;
+        document.getElementById("Ar").style.border = "solid 5px #bbbbbb";
         //validation code to see State field is mandatory.  
         return false;
     } else {
@@ -64,6 +66,7 @@ document.getElementById("Bl").onclick = function fun() {
         }
         console.log(text);
         document.getElementById("outcome").innerHTML = text;
+        document.getElementById("Bl").style.border = "solid 5px #bbbbbb";
         //validation code to see State field is mandatory.  
         return false;
     } else {
@@ -82,7 +85,9 @@ document.getElementById("Br").onclick = function fun() {
             text = "5";
         }
         console.log(text);
+        
         document.getElementById("outcome").innerHTML = text;
+        document.getElementById("Br").style.border = "solid 5px #bbbbbb";
         //validation code to see State field is mandatory.  
         return false;
     } else {
@@ -102,6 +107,7 @@ document.getElementById("Cl").onclick = function fun() {
         }
         console.log(text);
         document.getElementById("outcome").innerHTML = text;
+        document.getElementById("Cl").style.border = "solid 5px #bbbbbb";
         //validation code to see State field is mandatory.  
         return false;
     } else {
@@ -121,6 +127,7 @@ document.getElementById("Cr").onclick = function fun() {
         }
         console.log(text);
         document.getElementById("outcome").innerHTML = text;
+        document.getElementById("Cr").style.border = "solid 5px #bbbbbb";
         //validation code to see State field is mandatory.  
         return false;
     } else {
@@ -140,6 +147,7 @@ document.getElementById("Dl").onclick = function fun() {
         }
         console.log(text);
         document.getElementById("outcome").innerHTML = text;
+        document.getElementById("Dl").style.border = "solid 5px #bbbbbb";
         //validation code to see State field is mandatory.  
         return false;
     } else {
@@ -159,6 +167,7 @@ document.getElementById("Dr").onclick = function fun() {
         }
         console.log(text);
         document.getElementById("outcome").innerHTML = text;
+        document.getElementById("Dr").style.border = "solid 5px #bbbbbb";
         //validation code to see State field is mandatory.  
         return false;
     } else {
